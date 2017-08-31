@@ -1,5 +1,4 @@
 <?php
-date_default_timezone_set('America/Los_Angeles');
 $time = date('H:i');
 echo "Сейчас $time</br>";
 if     ($time >= '06:00' && $time < '09:00')  { echo "Список дел с 6 до 9";   }
